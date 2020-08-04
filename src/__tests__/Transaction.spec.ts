@@ -48,12 +48,6 @@ describe('Transaction', () => {
           type: 'outcome',
           value: 1500,
         }),
-        expect.objectContaining({
-          id: expect.any(String),
-          title: 'Loan',
-          type: 'income',
-          value: 1200,
-        }),
       ]),
     );
 
